@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="跑马灯效果，点击暂定，再点击恢复"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_marquee"
+            android:layout_marginTop="20dp"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:text="领导十卡技法卢卡斯克拉福德江岸粮食空间按双方的交流骄傲舒服多了就爱上了放假啊撒赖扩大飞机卢卡斯积分"
+            />
+    </LinearLayout>
+
+
+
