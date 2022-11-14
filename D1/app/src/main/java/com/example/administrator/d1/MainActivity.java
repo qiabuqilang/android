@@ -16,7 +16,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         findViewById(R.id.btn_px).setOnClickListener(this);
         findViewById(R.id.btn_color).setOnClickListener(this);
-
+        findViewById(R.id.btn_screen).setOnClickListener(this);
+        findViewById(R.id.btn_margin).setOnClickListener(this);
+        findViewById(R.id.btn_gravity).setOnClickListener(this);
+        findViewById(R.id.btn_scroll).setOnClickListener(this);
     }
 
     @Override
@@ -37,6 +40,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this,ScreenActivity.class);
                 startActivity(intent);
                 break;
+
+            case R.id.btn_margin:
+                intent = new Intent(this,MarginActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.btn_gravity:
+                intent = new Intent(this,GravityActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.btn_scroll:
+                intent = new Intent(this,ScrollActivity.class);
+                startActivity(intent);
+                break;
+
         }
     }
 }

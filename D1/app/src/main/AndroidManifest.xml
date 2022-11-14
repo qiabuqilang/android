@@ -23,6 +23,12 @@
         <activity android:name=".ColorActivity"/>
 
         <activity android:name=".ScreenActivity"/>
+
+        <activity android:name=".MarginActivity"/>
+
+        <activity android:name=".GravityActivity"/>
+
+        <activity android:name=".ScrollActivity"/>
     </application>
 
 </manifest>
