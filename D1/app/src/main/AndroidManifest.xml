@@ -29,6 +29,18 @@
         <activity android:name=".GravityActivity"/>
 
         <activity android:name=".ScrollActivity"/>
+
+        <activity android:name=".MarqueeActivity"/>
+
+        <activity android:name=".BbsActivity"/>
+
+        <activity android:name=".ClickActivity"/>
+
+        <activity android:name=".ScaleActivity"/>
+
+        <activity android:name=".CaptureActivity"/>
+
+        <activity android:name=".IconActivity"/>
     </application>
 
 </manifest>
