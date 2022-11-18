@@ -41,6 +41,12 @@
         <activity android:name=".CaptureActivity"/>
 
         <activity android:name=".IconActivity"/>
+
+        <activity android:name=".StateActivity"/>
+
+        <activity android:name=".ShapeActivity"/>
+
+        <activity android:name=".NineActivity"/>
     </application>
 
 </manifest>

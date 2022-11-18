@@ -27,6 +27,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_scale).setOnClickListener(this);
         findViewById(R.id.btn_capture).setOnClickListener(this);
         findViewById(R.id.btn_icon).setOnClickListener(this);
+        findViewById(R.id.btn_state).setOnClickListener(this);
+        findViewById(R.id.btn_shape).setOnClickListener(this);
+        findViewById(R.id.btn_nine).setOnClickListener(this);
     }
 
     @Override
@@ -90,6 +93,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.btn_icon:
                 intent = new Intent(this, IconActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.btn_state:
+                intent = new Intent(this,StateActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.btn_shape:
+                intent = new Intent(this,ShapeActivity.class);
+                startActivity(intent);
+                break;
+
+            case R.id.btn_nine:
+                intent = new Intent(this,NineActivity.class);
                 startActivity(intent);
                 break;
 
