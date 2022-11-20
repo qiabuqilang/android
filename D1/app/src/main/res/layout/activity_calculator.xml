@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+       >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="简单计算器"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_process"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|bottom"
+            android:scrollbars="vertical"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right|bottom"
+            android:scrollbars="vertical"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <Button
+            android:id="@+id/btn_cancel"
+            android:onClick="getRes"
+            android:text="CE"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_division"
+            android:onClick="getRes"
+            android:text="➗"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_multiply"
+            android:onClick="getRes"
+            android:text="x"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_clear"
+            android:onClick="getRes"
+            android:text="C"
+            style="@style/btn_cal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <Button
+            android:id="@+id/btn_seven"
+            android:onClick="getRes"
+            android:text="7"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_eight"
+            android:onClick="getRes"
+            android:text="8"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_nine"
+            android:onClick="getRes"
+            android:text="9"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_add"
+            android:onClick="getRes"
+            android:text="+"
+            style="@style/btn_cal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <Button
+            android:id="@+id/btn_four"
+            android:onClick="getRes"
+            android:text="4"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_five"
+            android:onClick="getRes"
+            android:text="5"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_six"
+            android:onClick="getRes"
+            android:text="6"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_minus"
+            android:onClick="getRes"
+            android:text="-"
+            style="@style/btn_cal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <Button
+            android:id="@+id/btn_one"
+            android:onClick="getRes"
+            android:text="1"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_two"
+            android:onClick="getRes"
+            android:text="2"
+            style="@style/btn_cal" />
+        <Button
+            android:id="@+id/btn_three"
+            android:onClick="getRes"
+            android:text="3"
+            style="@style/btn_cal" />
+        <ImageButton
+            android:id="@+id/ib_sqrt"
+            android:onClick="getRes"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@drawable/sqrt"
+            android:background="@drawable/btn_nine_selector" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_zero"
+            android:onClick="getRes"
+            style="@style/btn_cal"
+            android:layout_weight="2"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/btn_dot"
+            android:onClick="getRes"
+            style="@style/btn_cal"
+            android:text="．" />
+
+        <Button
+            android:id="@+id/btn_equal"
+            android:onClick="getRes"
+            style="@style/btn_cal"
+            android:text="＝" />
+    </LinearLayout>
+    </LinearLayout>

@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_state).setOnClickListener(this);
         findViewById(R.id.btn_shape).setOnClickListener(this);
         findViewById(R.id.btn_nine).setOnClickListener(this);
+        findViewById(R.id.btn_calculator).setOnClickListener(this);
     }
 
     @Override
@@ -110,6 +111,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 intent = new Intent(this,NineActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.btn_calculator:
+                intent = new Intent(this,CalculatorActivity.class);
+                startActivity(intent);
+               break;
 
         }
     }

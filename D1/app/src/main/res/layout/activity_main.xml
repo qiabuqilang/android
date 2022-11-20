@@ -167,6 +167,19 @@
                     android:text="九宫格图片" />
 
             </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="2.5 实战项目-简单计算器" />
+
+            <Button
+                android:id="@+id/btn_calculator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="简单计算器" />
         </LinearLayout>
 
 
