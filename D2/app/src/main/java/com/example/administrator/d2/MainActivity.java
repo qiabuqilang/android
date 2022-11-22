@@ -22,6 +22,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_switch_ios).setOnClickListener(this);
         findViewById(R.id.btn_radio_horizontal).setOnClickListener(this);
         findViewById(R.id.btn_radio_vertical).setOnClickListener(this);
+        findViewById(R.id.btn_spinner_dropdown).setOnClickListener(this);
+        findViewById(R.id.btn_spinner_dialog).setOnClickListener(this);
+        findViewById(R.id.btn_spinner_icon).setOnClickListener(this);
     }
 
     @Override
@@ -58,6 +61,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_radio_vertical:
                 intent = new Intent(this,RadioVerticalActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_spinner_dropdown:
+                intent = new Intent(this,SpinnerDropdownActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_spinner_dialog:
+                intent = new Intent(this,SpinnnerDialogActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_spinner_icon:
+                intent = new Intent(this,SpinnerIconActivity.class);
                 startActivity(intent);
                 break;
         }

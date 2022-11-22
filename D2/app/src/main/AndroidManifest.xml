@@ -32,6 +32,12 @@
         <activity android:name=".RadioHorizontalActivity"/>
 
         <activity android:name=".RadioVerticalActivity"/>
+
+        <activity android:name=".SpinnerDropdownActivity"/>
+
+        <activity android:name=".SpinnnerDialogActivity"/>
+
+        <activity android:name=".SpinnerIconActivity"/>
     </application>
 
 
