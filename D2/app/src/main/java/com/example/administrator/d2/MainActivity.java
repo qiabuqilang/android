@@ -17,6 +17,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_relative_xml).setOnClickListener(this);
         findViewById(R.id.btn_relative_code).setOnClickListener(this);
         findViewById(R.id.btn_frame).setOnClickListener(this);
+        findViewById(R.id.btn_checkbox).setOnClickListener(this);
+        findViewById(R.id.btn_switch_default).setOnClickListener(this);
+        findViewById(R.id.btn_switch_ios).setOnClickListener(this);
+        findViewById(R.id.btn_radio_horizontal).setOnClickListener(this);
+        findViewById(R.id.btn_radio_vertical).setOnClickListener(this);
     }
 
     @Override
@@ -33,6 +38,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btn_frame:
                 intent = new Intent(this, FrameActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_checkbox:
+                intent = new Intent(this,CheckActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_switch_default:
+                intent = new Intent(this,SwitchDefaultActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_switch_ios:
+                intent = new Intent(this,SwitchIosActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_radio_horizontal:
+                intent = new Intent(this,RadioHorizontalActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.btn_radio_vertical:
+                intent = new Intent(this,RadioVerticalActivity.class);
                 startActivity(intent);
                 break;
         }

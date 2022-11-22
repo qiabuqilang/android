@@ -22,6 +22,16 @@
         <activity android:name=".RelativeCodeActivity"/>
 
         <activity android:name=".FrameActivity"/>
+
+        <activity android:name=".CheckActivity"/>
+
+        <activity android:name=".SwitchDefaultActivity"/>
+
+        <activity android:name=".SwitchIosActivity"/>
+
+        <activity android:name=".RadioHorizontalActivity"/>
+
+        <activity android:name=".RadioVerticalActivity"/>
     </application>
 
 
