@@ -22,6 +22,16 @@
         <activity android:name=".ShareReadActivity"/>
 
         <activity android:name=".LoginShareActivity"/>
+
+        <activity android:name=".SqliteCreateActivity"/>
+
+        <activity android:name=".SqliteWriteActivity"/>
+
+        <activity android:name=".SqliteReadActivity"/>
+
+        <activity android:name=".LoginSqliteActivity"/>
+
+        <activity android:name=".LoginForgetActivity"/>
     </application>
 
 </manifest>
