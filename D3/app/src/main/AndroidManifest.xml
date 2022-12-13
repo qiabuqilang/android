@@ -32,6 +32,18 @@
         <activity android:name=".LoginSqliteActivity"/>
 
         <activity android:name=".LoginForgetActivity"/>
+
+        <activity android:name=".FileBasicActivity"/>
+
+        <activity android:name=".FilePathActivity"/>
+
+        <activity android:name=".TextWriteActivity"/>
+
+        <activity android:name=".TextReadActivity"/>
+
+        <activity android:name=".ImageWriteActivity"/>
+
+        <activity android:name=".ImageReadActivity"/>
     </application>
 
 </manifest>

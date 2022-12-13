@@ -18,6 +18,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_sqlite_write).setOnClickListener(this::onClick);
         findViewById(R.id.btn_sqlite_read).setOnClickListener(this::onClick);
         findViewById(R.id.btn_login_sqlite).setOnClickListener(this::onClick);
+        findViewById(R.id.btn_file_basic).setOnClickListener(this::onClick);
+        findViewById(R.id.btn_file_path).setOnClickListener(this::onClick);
+        findViewById(R.id.btn_text_write).setOnClickListener(this::onClick);
+        findViewById(R.id.btn_text_read).setOnClickListener(this::onClick);
+        findViewById(R.id.btn_image_write).setOnClickListener(this::onClick);
+        findViewById(R.id.btn_image_read).setOnClickListener(this::onClick);
     }
 
     @Override
@@ -45,6 +51,25 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         case R.id.btn_login_sqlite:
             intent.setClass(this,LoginSqliteActivity.class);
             break;
+        case R.id.btn_file_basic:
+            intent.setClass(this,FileBasicActivity.class);
+            break;
+        case R.id.btn_file_path:
+            intent.setClass(this,FilePathActivity.class);
+            break;
+        case R.id.btn_text_write:
+            intent.setClass(this,TextWriteActivity.class);
+            break;
+        case R.id.btn_text_read:
+            intent.setClass(this,TextReadActivity.class);
+            break;
+        case R.id.btn_image_write:
+            intent.setClass(this,ImageWriteActivity.class);
+            break;
+        case R.id.btn_image_read:
+            intent.setClass(this,ImageReadActivity.class);
+            break;
+
         }
         startActivity(intent);
     }
